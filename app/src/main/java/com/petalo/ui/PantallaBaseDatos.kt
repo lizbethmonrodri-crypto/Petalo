@@ -1,6 +1,7 @@
 
 package com.petalo.ui
 
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -28,8 +29,7 @@ fun PantallaBaseDatos(onRegresar: () -> Unit) {
     val usuarios by viewModel.usuarios.collectAsStateWithLifecycle()
     val carrito by viewModel.carrito.collectAsStateWithLifecycle()
 
-    var pestana by remember { mutableIntStateOf(0) }
-
+    var pestana by rememberSaveable { mutableIntStateOf(0) }
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -140,9 +140,9 @@ fun FormularioFlores(
 ) {
 
     var id by remember { mutableIntStateOf(0) }
-    var nombre by remember { mutableStateOf("") }
-    var categoria by remember { mutableStateOf("") }
-    var precio by remember { mutableStateOf("") }
+    var nombre by rememberSaveable { mutableStateOf("") }
+    var categoria by rememberSaveable { mutableStateOf("") }
+    var precio by rememberSaveable { mutableStateOf("") }
     var error by remember { mutableStateOf("") }
 
     var florEliminar by remember {
