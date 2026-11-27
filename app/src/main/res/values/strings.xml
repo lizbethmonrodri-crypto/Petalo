@@ -1,0 +1,63 @@
+
+<resources>
+    <string name="app_name">Pétalo</string>
+    <string name="descripcion_app">Floristería · compra y venta de flores</string>
+    <string name="logo_descripcion">Logotipo de Pétalo Florería</string>
+
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="regresar">Regresar</string>
+    <string name="registro_descripcion">Regístrate para comprar o vender flores</string>
+    <string name="minimo_caracteres">Mínimo 8 caracteres</string>
+    <string name="tipo_cuenta">Tipo de cuenta</string>
+    <string name="comprador">Comprador</string>
+    <string name="vendedor">Vendedor</string>
+    <string name="completar_campos">Completa todos los campos correctamente</string>
+    <string name="contrasena_corta">La contraseña debe tener al menos 8 caracteres</string>
+
+    <string name="inicio">Inicio</string>
+    <string name="catalogo">Catálogo</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="perfil">Perfil</string>
+    <string name="buscar_flores">Buscar flores, ramos o plantas</string>
+    <string name="flores_frescas">Flores frescas para cada ocasión</string>
+    <string name="descripcion_promocion">Compra ramos o vende los tuyos</string>
+    <string name="ver_catalogo">Ver catálogo</string>
+    <string name="vender">Vender</string>
+    <string name="destacados">Destacados</string>
+    <string name="ver_todos">Ver todos</string>
+    <string name="todos">Todos</string>
+    <string name="ramos">Ramos</string>
+    <string name="plantas">Plantas</string>
+    <string name="arreglos">Arreglos</string>
+    <string name="no_flores">No se encontraron flores</string>
+    <string name="no_productos">No se encontraron productos</string>
+    <string name="cantidad_productos">%1$d productos</string>
+    <string name="precio_ascendente">Precio ↑</string>
+    <string name="precio_descendente">Precio ↓</string>
+    <string name="precio_mxn">$%1$d MXN</string>
+    <string name="agregar_producto">Agregar %1$s</string>
+    <string name="agregar">+</string>
+    <string name="carrito">Carrito</string>
+
+    <string name="tulipanes_mixtos">Tulipanes mixtos</string>
+    <string name="orquidea_maceta">Orquídea en maceta</string>
+    <string name="arreglo_lirios">Arreglo de lirios</string>
+    <string name="ramo_primavera">Ramo Primavera</string>
+    <string name="ramo_rosas">Ramo de rosas rojas</string>
+    <string name="ramo_girasoles">Ramo de girasoles</string>
+
+    <string name="usuario_cliente">Usuario Cliente</string>
+    <string name="cuenta_comprador">Tipo de cuenta: Comprador</string>
+    <string name="seleccionar_tema">Seleccionar tema</string>
+    <string name="tema_claro">Claro</string>
+    <string name="tema_oscuro">Oscuro</string>
+    <string name="tema_sistema">Sistema</string>
+    <string name="tema_seleccionado">Tema seleccionado: %1$s</string>
+    <string name="vender_flores">Vender flores</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="funcion_pendiente">Esta función estará disponible próximamente</string>
+</resources>
